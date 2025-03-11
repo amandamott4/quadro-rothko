@@ -1,6 +1,5 @@
-dimenções, tamanhos, formas...
----
-### Funções do CSS
+
+### Funcionalidades CSS
 
 ---
 
