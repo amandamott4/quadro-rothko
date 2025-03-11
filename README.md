@@ -1,4 +1,4 @@
-box, rotulo, acessibilidade, questionario
+dimenções, tamanhos, formas...
 ---
 ### Funções do CSS
 
