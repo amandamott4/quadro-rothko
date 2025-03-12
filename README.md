@@ -28,6 +28,7 @@ Margem
 |--------------------------|
 
 
+![Captura de tela 2025-03-12 121818](https://github.com/user-attachments/assets/e591d1e5-1a5e-4b0f-82d4-6acc82a22608)
 
 
 ---
