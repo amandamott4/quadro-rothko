@@ -20,11 +20,6 @@ O Modelo de Caixa do CSS é um conceito fundamental para o design e layout de p�
 
 ---
 
-#### Remover Elemento
-Remova o elemento `<img>`
-
----
-
 #### Adicionar um Elemento div
 Adicione um elemento `div` no corpo
 
@@ -97,6 +92,46 @@ Escreva uma nova regra que direciona `.one` e defina sua largura para 425 pixels
 
 #### Ajustar Propriedade de Overflow
 Adicionar 1 pixel de padding na parte superior, inferior, esquerda e direita da canvas alterou suas dimensões para 502 pixels x 602 pixels. Substitua a propriedade de padding por overflow definido como hidden - alterando a canvas de volta às suas dimensões originais
+
+A propriedade `overflow` do CSS controla como o conteúdo de um elemento é tratado quando ultrapassa as dimensões de seu contêiner. Existem várias opções para essa propriedade, cada uma controlando o comportamento de forma diferente:
+
+1. **`overflow: visible;`**: Este é o valor padrão. O conteúdo que ultrapassa as bordas do contêiner é visível.
+   ```css
+   .elemento {
+       overflow: visible;
+   }
+   ```
+
+2. **`overflow: hidden;`**: O conteúdo que ultrapassa as bordas do contêiner é cortado e não será visível.
+   ```css
+   .elemento {
+       overflow: hidden;
+   }
+   ```
+
+3. **`overflow: scroll;`**: Sempre exibe barras de rolagem, independentemente de o conteúdo ultrapassar ou não as dimensões do contêiner.
+   ```css
+   .elemento {
+       overflow: scroll;
+   }
+   ```
+
+4. **`overflow: auto;`**: Exibe barras de rolagem somente quando o conteúdo ultrapassa as dimensões do contêiner.
+   ```css
+   .elemento {
+       overflow: auto;
+   }
+   ```
+
+Além disso, a propriedade `overflow` pode ser separada em `overflow-x` e `overflow-y` para controlar o comportamento horizontal e verticalmente, respectivamente:
+   ```css
+   .elemento {
+       overflow-x: auto;
+       overflow-y: hidden;
+   }
+   ```
+
+Essas opções ajudam a controlar como o conteúdo é exibido e interagido quando excede os limites do seu contêiner.
 
 ---
 
