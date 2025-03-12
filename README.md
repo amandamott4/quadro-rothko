@@ -15,19 +15,6 @@ O Modelo de Caixa do CSS é um conceito fundamental para o design e layout de p�
 4. **Conteúdo (Content)**: A área onde o conteúdo real do elemento (texto, imagem, etc.) é exibido.
 
 ### Ilustração do Modelo de Caixa do CSS
-
-Margem
-|--------------------------|
-|       Borda              |
-|  |--------------------|  |
-|  |    Preenchimento   |  |
-|  |  |--------------|  |  |
-|  |  |  Conteúdo    |  |  |
-|  |  |--------------|  |  |
-|  |--------------------|  |
-|--------------------------|
-
-
 ![Captura de tela 2025-03-12 121818](https://github.com/user-attachments/assets/e591d1e5-1a5e-4b0f-82d4-6acc82a22608)
 
 
