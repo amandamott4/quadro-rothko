@@ -3,18 +3,29 @@
 
 ---
 
-#### Margem (Margin)
-A margem é a área externa da caixa e pode ser usada para controlar o espaço entre outras caixas ou elementos
-
----
-
-#### Elemento Inferior
-Aqui, o elemento inferior tem uma margem superior maior, empurrando-o mais para baixo na página
-
----
-
 #### Modelo de Caixa do CSS
-Agora que você entende o modelo de caixa do CSS, vamos começar com a pintura de Rothko
+O Modelo de Caixa do CSS é um conceito fundamental para o design e layout de páginas da web. Ele define como os elementos HTML são estruturados e como o espaço ao redor desses elementos é calculado. Vamos analisar os componentes principais do Modelo de Caixa:
+
+Margem (Margin): O espaço exterior ao redor do elemento, que separa o elemento de outros elementos na página.
+
+Borda (Border): A linha ao redor do conteúdo e do padding do elemento.
+
+Preenchimento (Padding): O espaço entre o conteúdo do elemento e sua borda.
+
+Conteúdo (Content): A área onde o conteúdo real do elemento (texto, imagem, etc.) é exibido.
+
++-----------------------------+
+|            Margem           |
+|  +-----------------------+  |
+|  |        Borda          |  |
+|  |  +-----------------+  |  |
+|  |  |    Preenchimento |  |  |
+|  |  |  +-------------+ |  |  |
+|  |  |  |  Conteúdo   | |  |  |
+|  |  |  +-------------+ |  |  |
+|  |  +-----------------+  |  |
+|  +-----------------------+  |
++-----------------------------+
 
 ---
 
