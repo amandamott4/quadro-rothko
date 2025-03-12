@@ -1,12 +1,9 @@
 
-### Funcionalidades CSS
+## Funcionalidades CSS
 
 ---
 
 #### Modelo de Caixa do CSS
-
-## Modelo de Caixa do CSS
-
 O Modelo de Caixa do CSS é um conceito fundamental para o design e layout de páginas da web. Ele define como os elementos HTML são estruturados e como o espaço ao redor desses elementos é calculado. Vamos analisar os componentes principais do Modelo de Caixa:
 
 1. **Margem (Margin)**: O espaço exterior ao redor do elemento, que separa o elemento de outros elementos na página.
@@ -18,7 +15,20 @@ O Modelo de Caixa do CSS é um conceito fundamental para o design e layout de p�
 4. **Conteúdo (Content)**: A área onde o conteúdo real do elemento (texto, imagem, etc.) é exibido.
 
 ### Ilustração do Modelo de Caixa do CSS
-+-----------------------------+ | Margem | | +-----------------------+ | | | Borda | | | | +-----------------+ | | | | | Preenchimento | | | | | | +-----------+ | | | | | | | Conteúdo | | | | | | | +-----------+ | | | | | +-----------------+ | | | +-----------------------+ | +-----------------------------+
+
+Margem
+|--------------------------|
+|       Borda              |
+|  |--------------------|  |
+|  |    Preenchimento   |  |
+|  |  |--------------|  |  |
+|  |  |  Conteúdo    |  |  |
+|  |  |--------------|  |  |
+|  |--------------------|  |
+|--------------------------|
+
+
+
 
 ---
 
