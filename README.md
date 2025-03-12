@@ -156,11 +156,14 @@ Os retângulos são muito pequenos e suas bordas não têm a qualidade suave de 
 ---
 
 #### Arredondar Bordas
+A propriedade border-radius do CSS é usada para arredondar os cantos das bordas de um elemento.
+
 Use a propriedade de `border-radius` no seletor `.two`, para definir o raio superior esquerdo e inferior direito como 8px, e o raio superior direito e inferior esquerdo como 10px. A propriedade `border-radius` aceita até quatro valores para arredondar os cantos superior esquerdo, superior direito, inferior direito e inferior esquerdo
 
 ---
 
 #### Rotacionar Retângulos
-Gire cada retângulo para dar-lhes uma aparência mais imperfeita e pintada à mão. Use a propriedade `transform` no seletor `.one` para girá-lo no sentido anti-horário em 0,6 graus
+A propriedade transform é extremamente poderosa e pode ser combinada com transições e animações para criar efeitos dinâmicos e envolventes
 
-Espero que isso ajude! Se precisar de mais alguma coisa, estou aqui 😊
+Gire cada retângulo para dar-lhes uma aparência mais imperfeita e pintada à mão. Use a propriedade `transform` no seletor `.one` para girá-lo no sentido anti-horário em 0,6 graus
+bo
